@@ -1,0 +1,896 @@
+*{
+    max-width: 100%;
+    box-sizing: border-box;
+    color: #56534d;
+}
+h1 {
+    font-size: 3.5em;
+}
+h2 {
+    font-size: 2em;
+}
+h4 {
+    text-transform: uppercase;
+    font-size: 0.875em;
+}
+h4, h3 {
+    color: #a87f65;
+}
+.name {
+    font-family: 'Great Vibes', cursive;
+}
+p {
+    font-family: 'Raleway', sans-serif;
+    line-height: 20px;
+    letter-spacing: 1px; 
+}
+h1, h2, h3, li, button, #circle p {
+    /*font-family: 'Bitter', serif;*/
+    font-family: 'Roboto Slab', serif;
+}
+#wrapper, 
+#section_1, 
+#section_2, 
+#section_2 article:first-of-type,
+#section_2 div:last-of-type, 
+#section_2 div:nth-of-type(2), 
+#section_2 aside, 
+#section_2 aside span, 
+#circle,
+#section_3,
+#section_3 div,
+#section_3 div article, 
+#section_3 div aside span, 
+#section_4,
+#section_4 > article, 
+#section_4 > aside,
+#section_4 > article div,
+#section_5, 
+#section_5 section,
+#section_5 article,
+#section_5 aside,
+#section_5 span,
+header, footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#wrapper {
+    width: 100%;
+    height: auto;
+    justify-content: flex-start;
+    position: relative;
+}
+section {
+    width: 100%;
+    height: auto;
+    background-image: url("../images/bakery-wallpapers-2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+li, header h2, i, #section_1 p, #section_1 button, header p, 
+footer h2, footer p {
+    color: lightgrey;
+}
+header p, footer p {
+    line-height: 0;
+    font-size: 1.25em;
+}
+#wrapper > header {
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    padding: 0 5%;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgba(51, 51, 51, 0.6);
+    /*color: rgba(51, 51, 51, 0.4);*/
+}
+nav {
+    width: 60%;
+    height: 100%;    
+}
+ul {
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+li {
+    font-weight: lighter;
+    font-size: 0.6em;
+    text-transform: uppercase;
+    line-height: 0.6em;
+    height: 100%;
+    line-height: 60px;
+}
+.name, li {
+    letter-spacing: 4px;
+}
+header div i[class="fa fa-facebook"] {
+    margin: 0 15px;
+}
+li:hover {
+    cursor: pointer;
+}
+header p {
+    line-height: 60px;
+}
+a {
+    text-decoration: none;
+}
+        /*SECTION 1*/
+#section_1 > p, #section_1 > button {
+    letter-spacing: 2px;
+}
+#section_1 {
+    height: 600px;
+    background-image: url("../images/bakery-wallpapers-3.jpg");
+    background-size: 1280px auto;
+    background-position: 0 -140px;
+    justify-content: center;
+    padding: 0 25%;
+    text-align: center;
+    letter-spacing: 4px;
+}
+h1 {
+    color: white;
+}
+#section_1 > p {
+    margin: 80px 0 40px 0;
+    font-weight: lighter;
+    line-height: 25px;
+}
+#section_1 > button, #section_4 button, .btn {
+    width: 150px;
+    height: 40px;
+    border: 1px dashed lightgrey;
+    background: transparent;
+    font-size: 0.7em;
+    background-color: rgba(51, 51, 51, 0.5);
+    outline: none;
+}
+#section_1 > button:hover, #section_4 button:hover,
+.btn:hover {
+    cursor: pointer;
+}
+        /*SECTION 2*/
+#section_2 {
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px 0;
+    background-image: url("../images/bakery_paper_background.png");
+    box-shadow: 4px 7px 40px black;
+    z-index: 20;
+}
+#section_2 h2 {
+    font-size: 2.25em;
+    margin-bottom: 10px;
+}
+#section_2 h3 {
+    color: #56534d;
+    font-weight: bold;
+}
+#section_2 aside {
+    width: 490px;
+    height: 430px;   
+    margin-left: 60px;
+}
+#section_2 article > p {
+    font-size: 0.75em;
+    text-align: center; 
+    letter-spacing: 1px;
+}
+#section_2 article {
+    width: 440px;
+    height: 500px;
+    justify-content: space-around;
+}
+#section_2 div:last-of-type,
+#section_2 div:nth-of-type(2) {
+    flex-direction: row;
+}
+#section_2 div:nth-of-type(2) p {
+    height: 50px;
+    line-height: 50px;
+    width: 90px;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    font-family: 'Bitter', serif;
+    font-weight: lighter;
+}
+#section_2 div:first-of-type {
+    text-align: center;
+}
+#section_2 div:last-of-type p:last-of-type,
+#section_2 div:last-of-type p:first-of-type {
+    font-family: 'Satisfy', cursive;
+    font-size: 3.25em;
+    height: 70px;
+}
+#section_2 div:last-of-type p:last-of-type {
+    line-height: 180px;
+    transform: rotateY(180deg);
+}
+#section_2 div:last-of-type p:first-of-type {
+    line-height: 10px;   
+}
+#section_2 div:last-of-type p:nth-of-type(2) {
+    font-family: 'Kristi', cursive;
+    color: #a87f65;
+    font-size: 2.25em;
+    text-align: center;
+    font-weight: lighter;
+    width: 300px;
+}
+#section_2 article span {
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    background-color: lightgrey;
+    background-image: url("../images/chef.png");
+    background-size: 180%;
+    background-position: -54px 0;
+    display: block;
+    margin: 0 20px;
+}
+#section_2 aside {
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+#section_2 aside > span {
+    width: 237px;
+    height: 207px;
+    background-image: url("../images/cake_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+}
+#section_2 aside > span:nth-of-type(2) {
+    background-image: url("../images/cake_2.jpg");
+    
+}
+#section_2 aside > span:nth-of-type(3) {
+    background-image: url("../images/cake_3.jpg");
+}
+#section_2 aside > span:nth-of-type(4) {
+    background-image: url("../images/cake_4.jpg");
+}
+.border {
+    border: 4px solid white;
+    width: 228px;
+    height: 198px;
+}
+
+        /* Star between sections - start*/
+#section_2 > span {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 5px;
+    background-color: #a87f65;
+    position: absolute;
+    transform: rotate(15deg);
+    bottom: 330px;
+    top: 570px;
+}
+#section_2 > span:nth-of-type(2) {
+    transform: rotate(45deg);
+}
+#section_2 > span:last-of-type {
+    transform: rotate(75deg);
+}
+#section_2 > span:nth-of-type(3) {
+    border-radius: 100%;
+    background-color: white;
+    z-index: 10;
+    top: 569.5px;
+    transform: rotate(0deg);
+}
+#section_2 > span:nth-of-type(4) {
+    background: transparent;
+    background-image: url("../images/bread.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 20;
+    top: 569.5px;
+    transform: rotate(0deg);
+}
+#section_2 aside div span:nth-of-type(4) {
+    background-image: none;
+}
+        /*Star between sections - end*/
+#circle {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    top: 100px;
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: none;
+    left: 29%;
+    top: 27%;
+    justify-content: center;
+}
+#circle p {
+    font-size: 24px;
+    text-align: center;
+    line-height: 30px;
+    color: #a87f65;
+    opacity: 0.6;
+}
+
+        /*SECTION 3*/
+
+#section_3 {
+    align-items: flex-start;
+    padding: 90px 10% 70px 10%;
+    background-size: cover;
+    position: relative;
+    z-index: 15;
+    box-shadow: -1px 10px 22px black;
+
+}
+#section_3 > div {
+    width: 900px;
+    height: 500px;
+    flex-direction: row;
+    /*box-shadow: 0 0 35px #ccc1bf;*/
+}
+#section_3 > div > aside {
+    width: 40%;
+    height: 100%;
+    background-image: url("../images/fruit-cake.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -100px 0;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 50px 100%, 0% 450px);
+    /*box-shadow: 0 0 35px black;*/
+}
+#section_3 div article {
+    width: 60%;
+    height: 100%;
+    padding: 70px 60px 30px 50px;
+    background-color: white;
+    background-image: url("../images/backgrOP1_01.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+#section_3 div article h4 {
+    align-self: flex-start;
+    margin-top: 10px;
+}
+#section_3 div article p, #section_5 p {
+    margin-bottom: 60px;
+    font-size: 0.75em;
+}
+#section_3 .slider {
+    width: 100%;
+    height: 85px;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.slider > img {
+    width: 85px;
+    height: 85px;
+    border-radius: 100%;  
+}
+.leftR, .rightR {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;  
+    border: 2px solid #a87f65; 
+    text-align: center;
+}
+.leftR:hover, .rightR:hover {
+    cursor: pointer;
+    background-color: #a87f65;
+}
+.leftR:hover i, .rightR:hover i {
+    color: white;
+}
+
+.leftR i, .rightR i {
+    line-height: 30px;
+    color: #a87f65;
+}
+.leftR .fa, .rightR .fa {
+    font-size: 1.5em;
+}
+#section_3 div aside span {
+    width: 60px;
+    height: 100%;   
+    justify-content: center;    
+}
+#section_3 div aside .angle,
+#section_4 .angle {
+    background-color: white;
+    position: absolute;
+    top: 540px;
+    left: 124px;
+    height: 50px;
+    width: 50px;
+}
+#section_3 div aside span i{
+    margin: 3px 0; 
+    color: white;
+}
+#section_3 > span {
+    display: inline-block;
+    position: absolute;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+#section_3 > span:first-of-type, #section_5 div > span {
+    background-image: url("../images/backgrOP1_01.png");
+    top: 60px;
+    right: 135px;
+    width: 150px;
+    height: 150px;
+    color: #a87f65;
+    box-shadow: -15px 15px 35px #ccc1bf;
+    font-family: 'Bitter', serif;
+    padding: 20px 30px; 
+    text-align: center;
+}
+#section_3 > span:last-of-type {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top: 315px;
+    left: 458.594px;
+}
+#section_3 > span:last-of-type i {
+    width: 50px;
+    height: 50px;
+    transform: rotate(90deg);
+    line-height: 50px;  
+    text-align: center;
+}
+#section_3 > span:last-of-type > span {
+    color: #56534d;   
+}
+.time {
+    display: block;
+    font-size: 52px;
+    font-weight: bold;
+    margin-top: 20px;
+    color: #e0c597;
+}
+
+        /*SECTION 4*/
+
+#section_4 {
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 60px 8% 50px 13%;
+    position: relative;
+    background-image: url("../images/wood-background.jpg");
+    background-size: cover;
+    /*background-position: -150px -150px;*/
+    z-index: 10;
+}
+#section_4 > article, #section_4 > aside {
+    height: 500px;
+    /*background-color: grey;*/
+    align-items: center;
+    justify-content: space-around;
+}
+#section_4 > article {
+    width: 360px;
+}
+#section_4 > article h2,
+#section_4 > article h3 {
+    color: white;
+}
+#section_4 > article h2,
+#section_5 h2 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+#section_4 > article h3 {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+#section_4  div p:last-of-type {
+    color: #e0c597;
+    font-size: 1.7em;
+    letter-spacing: 3px;
+}
+#section_4  div p:first-of-type {
+    color: lightgrey;
+    margin: 10px 0 20px 0;
+    font-size: 0.9em;
+}
+#section_4 > aside {
+    width: 420px;
+    margin-right: 30px;
+    background-color: #f3f1ea;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 30px 100%, 0% 470px);
+    padding: 30px 50px;
+    /*box-shadow: -50px 50px 50px 20px black;*/
+}
+#section_4 > aside p {
+    text-align: center;
+    line-height: 32px;
+    font-size: 0.8em;
+
+}
+#section_4 > aside h2 {
+    text-align: center;
+    line-height: 46px;
+    margin-top: 50px;
+}
+#section_4 > aside img {
+    position: absolute;
+    width: 350px;
+    top: 135px;
+}
+#section_4 header {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#section_4 button {
+    background-color: transparent;
+    border: 1px solid lightgrey;
+    font-size: 0.9em;
+    color: #a87f65;
+}
+.border_dashed {
+    position: absolute;
+    width: 400px;
+    height: 480px;
+    border: 1px dashed #56534d;
+    z-index: -1;
+}
+.passiveAside {
+    position: absolute;
+    transform: scale(0.9);
+    right: 65px;
+}
+.passiveAside:nth-of-type(1) {
+    transform: scale(0.8);
+    right: 30px;
+}
+.shadow, .shadow-scale {
+    position: absolute;
+    left: 687px;
+    width: 420px;
+    height: 500px;
+    box-shadow: 10px 0px 50px -20px black;
+}
+.shadow-scale {
+    top: 86px;
+    left: 742px;
+    height: 350px;
+    width: 378px;
+    box-shadow: 10px 0px 50px -20px black;
+}
+#section_4 .angle {
+    left: 667px;
+    top: 529px;
+}
+
+        /*SECTION 5*/
+
+#section_5 {
+    position: relative;
+    /*padding: 80px 10% 200px 10%;*/
+    padding: 80px 10% 80px 10%;
+    background-color: #f3f1ea;
+    background-image: url("../images/chateau.png");
+    background-size: 450px 150px;
+    background-position: center -20px; 
+    box-shadow: 0px 10px 30px grey;
+}
+#section_5 h4 {
+    margin: 10px 0 0 20px;
+    font-size: 0.7em;
+}
+#section_5 section {
+    width: 100%;
+    height: 550px;
+    background-image: none;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#section_5 section p {
+    text-align: center;
+}
+#section_5 aside {
+    height: 100%; 
+    width: 300px;
+    justify-content: space-around;  
+    align-items: center;
+}
+#section_5 aside:last-of-type {
+    width: 600px;
+    height: 400px;
+    box-shadow: 0 0 10px lightgrey;
+}
+#section_5 img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+#section_5 aside:last-of-type img {
+    width: 97%;
+    height: 95%;
+    border-radius: 0;
+    background-color: white;
+}
+#section_5 aside > span {
+    position: absolute;
+    align-self: flex-end;
+    right: 133px;
+}
+#section_5 h3 {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+#section_5 span > div {
+    width: 150px;
+    height: 150px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-top: 2px;
+}
+#section_5 span > div:last-of-type {
+    background-color: white;
+}
+#section_5 div > span {
+    box-shadow: none; 
+    background-image: none; 
+}
+#section_5 .time {
+    color: #56534d;
+}
+#section_5 div:last-of-type .time {
+    color: #e0c597;
+} 
+#section_5 div:last-of-type {
+    background-image: url("../images/chateau.png");
+    background-size: 300px 150px;
+    background-position: 0 75px;
+    background-repeat: no-repeat;
+}
+#section_5 .btn {
+    right: 585px;
+    top: 590px;
+    border-color: #e0c597;
+    background-color: rgba(255, 255, 255, 1);
+}
+#section_5 .btn h3 {
+    margin: 0;
+    line-height: 40px;
+    color: #e0c597;  
+}
+
+        /* SECTION 6*/
+
+#section_6 {
+    width: 100%;
+    height: 600px;
+    background-image: url('../images/contact_back.png');
+    /*background-color: #f3f1ea;*/
+    padding: 5%;
+    z-index: 10;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    color: #e0c597;
+}
+#section_6 p, #section_6 h2, 
+#section_6 h3, #section_6 h4 {
+    color: #2a1e17;
+}
+#myMap {
+    border-radius: 100%;
+}
+#section_6 .contacts {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+#section_6 > h2 {
+    width: 100%;
+    text-align: center;
+}
+#section_6 h3 {
+    font-size: 1.2em;
+}
+#section_6 p {
+    font-size: 0.8em;
+}
+
+#section_6 p:nth-of-type(3),
+#section_6 p:nth-of-type(4) {
+    color: #e0c597;
+} 
+        /* FOOTER */
+
+footer {
+    width: 100%;
+    height: 55px;
+    position: absolute;
+    bottom: 55px;
+    z-index: 10;
+}
+footer h2 {
+    text-transform: none;
+    font-size: 28px;
+    background-color: #2a1e17;
+    position: relative;
+    box-sizing: content-box;
+    bottom: 10px;
+    padding: 10px 50px; 
+}
+footer nav {
+    width: 80%;
+}
+footer nav > ul {
+    border-top: 1px solid #56534d;
+    border-bottom: 1px solid #56534d;
+}
+footer li {
+    line-height: 55px;
+}
+footer p {
+    line-height: 55px;
+}
+footer p, footer h2, footer li  {
+    color: #56534d;
+}
+
+/* JAVAscript classes*/
+
+.top {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    color: rgba(255, 255, 255, 1);
+    background-color: #a87f65;
+    opacity: 0.6;
+    bottom: 100px;
+    right: 10px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+}
+.top:hover {
+    cursor: pointer;
+}
+    /* FULL RECIPE*/ /*and*/ /*SWEET RECIPE*/
+#fullRec, #sweetFullRec {
+    width: 100%;
+    height: auto;
+    box-shadow: 4px 7px 40px black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+}
+#fullRec > img, #sweetFullRec > img {
+    width: 400px;
+    min-height: 320px;
+}
+#fullRec > article:first-of-type, #fullRec > img,
+#sweetFullRec > article:first-of-type , #sweetFullRec > img {
+    margin-bottom: 40px;
+}
+#fullRec > article:first-of-type, 
+#sweetFullRec > article:first-of-type {
+    width: 400px;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#fullRec > article:last-of-type,
+#sweetFullRec > article:last-of-type {
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+#fullRec p,
+#sweetFullRec p {
+    width: 100%;
+    font-size: 0.8em;
+}
+
+/*SWEET RECIPE*/
+#section_3 > div > aside {
+    background-position: center;
+}
+
+/* MENU */
+#myMenu {
+    width: 100%;
+    height: auto;
+    padding: 40px 10%;
+    display: flex;
+    justify-content: space-around;
+}
+.left, .right {
+    width: 450px;
+    height: 100%;
+}
+#myMenu h3 {
+    margin: 20px 0;
+    text-align: center;
+}
+#myMenu p {
+    font-size: 0.8em;
+    line-height: 16px;
+    border-bottom: 1px solid grey;
+}
+#myMenu h4 {
+    margin: 8px 0;
+    text-transform: none;
+}
+/* BREAKFAST */
+.breakfast {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%; 
+    /*background-color: rgba(222, 222, 222, 0.8); */
+    background-image: url('../images/light_wood_background.jpg')
+}
+.breakfast article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 45%;
+    height: 100%;
+    border-right: 2px solid #66371d;
+    padding-right: 10px; 
+}
+.breakfast h2, .breakfast h3, .breakfast h4 {
+    text-align: center;
+    font-size: 24px;
+}
+.breakfast h4 {
+    color: #66371d;
+}
+.breakfast h2 {
+    color: #66371d;
+    font-size: 32px;
+}
+.breakfast article h4:last-of-type {
+    font-size: 18px;
+    text-align: right;
+}
+.breakfast p {
+    font-size: 14px;
+    text-align: center;
+}
+
+
+
+
+
+
