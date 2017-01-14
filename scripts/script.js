@@ -192,7 +192,7 @@
         function rotates (){
             // console.log(sweetRecipe[sweet_time-1].timeCook);    
             sweet_rotate = sweetRecipe[sweet_image].img;
-            console.log(sweet_rotate);
+            // console.log(sweet_rotate);
             changeImage = $('#section_3 .try').fadeOut('slow', function(){
                 $('#section_3 .try').css('background-image', 'url(' + sweet_rotate + ')');
                 $('#section_3 .time').text(sweetRecipe[sweet_time-1].timeCook);
