@@ -188,7 +188,7 @@
         howToDo.text(sweetRecipe[0].make_it);
         var pauseInterval = false;
         
-        var thisInterval = setInterval(changeSweetImg, 6000);
+        var thisInterval = setInterval(changeSweetImg, 4000);
         function changeSweetImg() {
             if (!pauseInterval) {                               // check is the interval is paused
                 if (sweet_image < sweetRecipe.length) {
@@ -208,18 +208,6 @@
                 } else { 
                     sweet_image = 0;
                     sweet_time = 0;
-                    sweet_rotate = sweetRecipe[sweet_image].img;
-                    changeImage = $('#section_3 .try').fadeOut('slow', function(){
-                        $('#section_3 .try').css('background-image', 'url(' + sweet_rotate + ')');
-                        $('#section_3 .time').text(sweetRecipe[sweet_time - 1].timeCook);
-                        $('#section_3 h2').text(sweetRecipe[sweet_time - 1].title);
-                        $('#section_3 p').text(sweetRecipe[sweet_time - 1].description);
-                    }).fadeIn('slow');                            // change main image
-                    $('#sweetFullRec img').attr('src', sweet_rotate); // change image in recipe
-                    productList.html(sweetRecipe[sweet_image].products); // change the list of products
-                    howToDo.text(sweetRecipe[sweet_image].make_it); // change the made methood
-                    sweet_image++;
-                    sweet_time++;
                 }
             }
 
