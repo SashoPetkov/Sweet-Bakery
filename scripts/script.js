@@ -206,8 +206,8 @@
                     sweet_time++;
                     
                 } else { 
-                    sweet_image = 1;
-                    sweet_time = 1;
+                    sweet_image = 0;
+                    sweet_time = 0;
                     sweet_rotate = sweetRecipe[sweet_image].img;
                     changeImage = $('#section_3 .try').fadeOut('slow', function(){
                         $('#section_3 .try').css('background-image', 'url(' + sweet_rotate + ')');
