@@ -175,7 +175,7 @@
         var howToDo = $('#sweetFullRec article:last-of-type p');
         
 
-        var sweet_rotate; 
+        var sweet_rotate = 0; 
         var sweet_image = 1;
         var sweet_time = 1;
         var changeSweetImage = $('#section_3 .try').css('background-image', 'url('+ sweetRecipe[0].img +')' );
