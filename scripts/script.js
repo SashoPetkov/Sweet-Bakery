@@ -301,7 +301,7 @@
                     // $('.breakfast article:last-of-type h3').text(happyHour[0].hour);
                     // $('.breakfast article:last-of-type p').text(happyHour[0].descr);
                     // $('.breakfast article:last-of-type .price').text(happyHour[0].happyPrice);
-                    offersDay (Monday, 0);
+                    offersDay ('Monday', 0);
                     break;
                 case 2:
                     offersDay ('Tuesday', 1);

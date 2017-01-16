@@ -331,18 +331,18 @@ h1 {
         /*SECTION 3*/
 
 #section_3 {
-    align-items: flex-start;
+    align-items: center;
     padding: 90px 10% 70px 10%;
     background-size: cover;
     position: relative;
     z-index: 15;
     box-shadow: -1px 10px 22px black;
-
 }
 #section_3 > div {
     width: 900px;
     height: 500px;
     flex-direction: row;
+    position: relative;
     /*box-shadow: 0 0 35px #ccc1bf;*/
 }
 #section_3 > div > aside {
@@ -427,17 +427,17 @@ h1 {
     margin: 3px 0; 
     color: white;
 }
-#section_3 > span {
+#section_3 div > span {
     display: inline-block;
     position: absolute;
     background-color: white;
     background-size: cover;
     background-position: center;
 }
-#section_3 > span:first-of-type, #section_5 div > span {
+#section_3 div > span:first-of-type, #section_5 div > span {
     background-image: url("../images/backgrOP1_01.png");
-    top: 60px;
-    right: 135px;
+    top: -30px;
+    right: -75px;
     width: 150px;
     height: 150px;
     color: #a87f65;
@@ -446,21 +446,21 @@ h1 {
     padding: 20px 30px; 
     text-align: center;
 }
-#section_3 > span:last-of-type {
+#section_3 div > span:last-of-type {
     width: 50px;
     height: 50px;
     border-radius: 100%;
-    top: 315px;
-    left: 458.594px;
+    top: 225px;
+    left: 335px;
 }
-#section_3 > span:last-of-type i {
+#section_3 div > span:last-of-type i {
     width: 50px;
     height: 50px;
     transform: rotate(90deg);
     line-height: 50px;  
     text-align: center;
 }
-#section_3 > span:last-of-type > span {
+#section_3  div > span:last-of-type > span {
     color: #56534d;   
 }
 .time {
@@ -482,6 +482,7 @@ h1 {
     background-size: cover;
     /*background-position: -150px -150px;*/
     z-index: 10;
+    flex-wrap: wrap;
 }
 #section_4 > article, #section_4 > aside {
     height: 500px;
@@ -560,11 +561,11 @@ h1 {
 .passiveAside {
     position: absolute;
     transform: scale(0.9);
-    right: 65px;
+    right: 5.1%;
 }
 .passiveAside:nth-of-type(1) {
     transform: scale(0.8);
-    right: 30px;
+    right: 2.3%;
 }
 .shadow, .shadow-scale {
     position: absolute;
@@ -582,7 +583,7 @@ h1 {
 }
 #section_4 .angle {
     left: 667px;
-    top: 529px;
+    top: 530px;
 }
 
         /*SECTION 5*/
@@ -621,6 +622,7 @@ h1 {
     width: 600px;
     height: 400px;
     box-shadow: 0 0 10px lightgrey;
+    position: relative;
 }
 #section_5 img {
     width: 80px;
@@ -636,7 +638,7 @@ h1 {
 #section_5 aside > span {
     position: absolute;
     align-self: flex-end;
-    right: 133px;
+    right: -65px;
 }
 #section_5 h3 {
     margin: 10px 0;
@@ -668,8 +670,8 @@ h1 {
     background-repeat: no-repeat;
 }
 #section_5 .btn {
-    right: 585px;
-    top: 590px;
+    bottom: -12px;
+    left: -10px;
     border-color: #e0c597;
     background-color: rgba(255, 255, 255, 1);
 }
@@ -890,8 +892,14 @@ footer p, footer h2, footer li  {
     text-align: center;
 }
 
+        /* RESPONSIVE */
 
+@media only screen and (max-width: 1920px) and (max-width: 1080px) {
+    
+}
+@media only screen and (max-width: 1280px) and (max-width: 980px) {
 
+}
 
 
 
