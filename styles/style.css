@@ -128,7 +128,7 @@ a {
 #section_1 {
     height: 600px;
     background-image: url("../images/bakery-wallpapers-3.jpg");
-    background-size: 1280px auto;
+    background-size: 100% auto;
     background-position: 0 -140px;
     justify-content: center;
     padding: 0 25%;
