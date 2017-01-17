@@ -930,10 +930,8 @@ footer p, footer h2, footer li  {
         height: auto;
         display: none;
     }
-    .drop_steam {
+    body .drop_steam {
         display: block;
-    }
-    .minHeight {
         min-height: 270px;
     }
     .drop_steam:hover {
@@ -979,7 +977,7 @@ footer p, footer h2, footer li  {
         width: 96%;
     }
     #section_2 > span {
-        left: 40%;
+        left: 100px;
     }
 
         /* SECTION 3 */
@@ -1047,9 +1045,9 @@ footer p, footer h2, footer li  {
         width: 100%;
         height: auto;
     }
-    /*.breakfast article:first-of-type {
+    .breakfast article:first-of-type {
         margin-bottom: 30px;
-    }*/
+    }
     #section_4 > aside img {
         top: 12%;
         width: 85%;
