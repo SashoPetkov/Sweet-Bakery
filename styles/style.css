@@ -925,13 +925,17 @@ footer p, footer h2, footer li  {
         padding-left: 1%; 
         padding-right: 1%;
     }
-    header nav ul {
-        height: auto;
+    header {
+        justify-content: space-between;
+    }
+    header ul {
+        height: 100%;
     }
     header nav {
         width: 100%;
-        height: auto;
+        height: 100%;
         display: none;
+        margin-top: 50px;
     }
     .drop_steam {
         display: block;
@@ -986,7 +990,6 @@ footer p, footer h2, footer li  {
         left: 40%;
     }
 
-
         /* SECTION 3 */
     #section_3 {
         padding: 30px 2% 30px 2%;
@@ -1018,7 +1021,7 @@ footer p, footer h2, footer li  {
     #sweetFullRec {
         padding: 40px 2%; 
     }
-    #section_3 .angle { 
+    #section_3 .angle {
         display: none;
     }
 
@@ -1055,7 +1058,6 @@ footer p, footer h2, footer li  {
     }
     .breakfast article {
         width: 100%;
-        height: auto;
     }
     /*.breakfast article:first-of-type {
         margin-bottom: 30px;
