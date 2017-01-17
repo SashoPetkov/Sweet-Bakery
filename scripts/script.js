@@ -323,9 +323,13 @@
                     break;
             }
         });
-    });
-    
+    });    
 // BREAKFAST BUTTON - end
+
+    $('.drop_steam').on('click', function(){
+        $('header nav').toggleClass('visible');
+    });
+
 
 })();
 

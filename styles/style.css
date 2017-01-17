@@ -128,8 +128,9 @@ a {
 #section_1 {
     height: 600px;
     background-image: url("../images/bakery-wallpapers-3.jpg");
-    background-size: 100% auto;
-    background-position: 0 -140px;
+    background-size: cover;
+    /*background-size: 100% auto;*/
+    /*background-position: 0 -140px;*/
     justify-content: center;
     padding: 0 25%;
     text-align: center;
@@ -796,6 +797,7 @@ footer p, footer h2, footer li  {
 #fullRec > img, #sweetFullRec > img {
     width: 400px;
     min-height: 320px;
+    max-width: 100%;
 }
 #fullRec > article:first-of-type, #fullRec > img,
 #sweetFullRec > article:first-of-type , #sweetFullRec > img {
@@ -891,15 +893,199 @@ footer p, footer h2, footer li  {
     font-size: 14px;
     text-align: center;
 }
-
+.drop_steam {
+    display: none;
+    position: absolute;
+    background-image: url('../images/drop_steam.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 35px;
+    height: 24px;
+    top: 3%;
+    left: 2%;
+}
         /* RESPONSIVE */
-
-@media only screen and (max-width: 1920px) and (max-width: 1080px) {
-    
-}
-@media only screen and (max-width: 1280px) and (max-width: 980px) {
+@media only screen and (max-width: 768px) and (max-width: 980px) {
 
 }
+@media only screen and (max-width: 414px) and (max-width: 768px) {
 
+}
+
+@media only screen and (max-width: 414px) {
+        /* HEADER */
+    #wrapper > header {
+        flex-direction: column;
+        height: auto;
+    }
+    .name {
+        margin-top: 15px;
+    }
+    #section_1 {
+        padding-left: 1%; 
+        padding-right: 1%;
+    }
+    nav {
+        width: 100%;
+        display: none;
+    }
+    .drop_steam {
+        display: block;
+    }
+    .drop_steam:hover {
+        cursor: pointer;
+    } 
+    header p {
+        line-height: 14px;
+    }
+    header ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+    header li {
+        line-height: 30px;
+        width: 100%;
+        text-align: center;
+    }
+    header li:nth-of-type(odd):hover {
+        border: 2px solid yellow;
+        color: yellow;
+    }
+    #wrapper .visible{
+        display: block;
+    }
+    #myMenu {
+        display: block;
+    }
+
+        /* SECTION 2 */
+    #section_2 {
+        padding-left: 1%; 
+        padding-right: 1%;
+    }
+    #section_2 aside {
+        margin: 0;
+    }
+    #section_2 aside > span {
+        width: 49%;
+        height: 48%;
+    }
+    .border {
+        height: 96%;
+        width: 96%;
+    }
+        /* SECTION 3 */
+    #section_3 {
+        padding: 30px 2% 30px 2%;
+    }
+    #section_3 div article {
+        width: 100%;
+        height: 400px;
+        padding: 2%;
+    }
+    #section_3 > div {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+    #section_3 .slider {
+        display: none;
+    }
+    #section_3 div > span:first-of-type {
+        top: 50%;
+        right: 0;
+    }
+    #section_3 div > span:last-of-type {
+        display: none;
+    }
+    #section_3 > div > aside {
+        width: 100%;
+        height: 300px;   
+    }
+    #sweetFullRec {
+        padding: 40px 2%; 
+    }
+        /* SECTION 4 */
+
+    #section_4 {
+        padding: 60px 2% 50px 2%;
+        justify-content: center;
+    }
+    #section_4 > aside:last-of-type {
+        width: 100%;
+        margin: 0;
+        position: relative;
+        padding: 30px 20px;
+    }
+    .border_dashed {
+        width: 94%;
+        height: 95%;
+    }
+    .shadow, .shadow-scale, #section_4 .passiveAside {
+        display: none;
+    }
+    #section_4 .angle {
+        left: -5%;
+        top: 94%;
+    }
+    .breakfast {
+        height: auto;
+        padding: 40px 2%;
+        flex-direction: column;
+    }
+    .breakfast article {
+        width: 100%;
+    }
+    .breakfast article:first-of-type {
+        margin-bottom: 30px;
+    }
+    #section_4 > aside img {
+        top: 12%;
+        width: 85%;
+    }
+
+        /* SECTION 5 */
+
+    #section_5 {
+        padding: 30px 2%;
+    }
+    #section_5 section {
+        height: auto;
+        flex-direction: column;
+    }
+    #section_5 h2 {
+        text-align: center;
+    }
+    #section_5 aside > span {
+        right: 0;
+        margin-bottom: 10px;
+    }
+
+    #fullRec {
+        padding: 20px 2%;
+    }
+
+        /* SECTION 6 */
+
+    #section_6 {
+        height: auto;
+    }
+    #section_6 .contacts {
+        height: auto;
+        width: 100%;
+    }
+    #section_6 .contacts > * {
+        color: #e0c597;
+        margin: 5px 0;
+        text-align: center;
+    }
+    footer {
+        display: none;
+    }
+    #myMap {
+        margin: 20px 0;
+    }
+
+}
 
 
