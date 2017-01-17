@@ -931,6 +931,7 @@ footer p, footer h2, footer li  {
     }
     .drop_steam {
         display: block;
+        min-height: 270px;
     }
     .drop_steam:hover {
         cursor: pointer;
@@ -974,6 +975,10 @@ footer p, footer h2, footer li  {
         height: 96%;
         width: 96%;
     }
+    #section_2 > span {
+        left: 100px;
+    }
+
         /* SECTION 3 */
     #section_3 {
         padding: 30px 2% 30px 2%;
@@ -1027,11 +1032,13 @@ footer p, footer h2, footer li  {
     #section_4 .angle {
         left: -5%;
         top: 94%;
+        display: none;
     }
     .breakfast {
         height: auto;
         padding: 40px 2%;
         flex-direction: column;
+        min-height: 494px;
     }
     .breakfast article {
         width: 100%;
@@ -1060,7 +1067,9 @@ footer p, footer h2, footer li  {
         right: 0;
         margin-bottom: 10px;
     }
-
+    #section_5 aside > span:first-of-type {   
+        top: -30px;
+    }
     #fullRec {
         padding: 20px 2%;
     }
