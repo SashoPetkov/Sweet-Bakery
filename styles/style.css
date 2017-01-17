@@ -928,7 +928,7 @@ footer p, footer h2, footer li  {
         height: auto;
     }
 }
-@media only screen and (max-width: 1065px) and (min-width: 768px) {
+@media only screen and (max-width: 1065px) and (min-width: 767px) {
     #wrapper header nav {
         min-width: 100%;
     }
