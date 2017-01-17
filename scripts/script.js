@@ -328,6 +328,7 @@
 
     $('.drop_steam').on('click', function(){
         $('header nav').toggleClass('visible');
+        $('#wrapper > header').toggleClass('header');
     });
 
 
