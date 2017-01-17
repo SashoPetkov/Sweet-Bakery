@@ -927,6 +927,7 @@ footer p, footer h2, footer li  {
     }
     nav {
         width: 100%;
+        height: auto;
         display: none;
     }
     .drop_steam {
@@ -1050,6 +1051,7 @@ footer p, footer h2, footer li  {
     }
     .breakfast article {
         width: 100%;
+        height: auto;
     }
     /*.breakfast article:first-of-type {
         margin-bottom: 30px;
