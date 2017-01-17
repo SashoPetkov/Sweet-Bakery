@@ -934,7 +934,7 @@ footer p, footer h2, footer li  {
         display: block;
     }
     .minHeight {
-        min-height: 320px;
+        min-height: 270px;
     }
     .drop_steam:hover {
         cursor: pointer;
@@ -957,7 +957,6 @@ footer p, footer h2, footer li  {
     }
     #wrapper .visible{
         display: block;
-        height: auto;
     }
     #myMenu {
         display: block;
@@ -1047,7 +1046,6 @@ footer p, footer h2, footer li  {
         padding: 40px 2%;
         flex-direction: column;
         min-height: 550px;
-        justify-content: space-around;
     }
     .breakfast article {
         width: 100%;
