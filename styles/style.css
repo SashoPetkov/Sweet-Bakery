@@ -1008,8 +1008,22 @@ footer p, footer h2, footer li  {
         bottom: 0;
         height: auto;
     }
+    #section_3 div article {
+        padding: 2%
+    }
+    #section_3 .slider {
+        display: none;
+    }
     #section_3 div > span:last-of-type{
         display: none;
+    }
+    #section_5 aside > span,
+    #section_3 div > span:first-of-type {
+        right: 0;
+        margin-bottom: 10px;
+    }
+    #section_5 aside > span:first-of-type {   
+        top: -30px;
     }
 }
 @media only screen and (max-width: 585px) {
