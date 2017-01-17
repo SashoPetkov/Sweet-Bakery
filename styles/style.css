@@ -939,7 +939,7 @@ footer p, footer h2, footer li  {
         padding: 0 15% 
     }
     #myMenu {
-        padding: 40px 5%; 
+        padding: 40px 2%; 
     }
     .left, .right {
         width: 48%;
@@ -965,7 +965,7 @@ footer p, footer h2, footer li  {
     }
 }
 @media only screen and (max-width: 850px) and (min-width: 586px) {
-    header {
+    #wrapper header {
         padding: 0;
     }
     #section_2 > span {
@@ -998,6 +998,7 @@ footer p, footer h2, footer li  {
     }
     .breakfast article {
         width: 100%;
+        height: auto;
     }
     .breakfast article:last-of-type {
         margin-top: 20px;
