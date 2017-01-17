@@ -929,7 +929,7 @@ footer p, footer h2, footer li  {
     }
 }
 @media only screen and (max-width: 1065px) and (min-width: 768px) {
-    header nav {
+    #wrapper header nav {
         min-width: 100%;
     }
     #wrapper > header {
@@ -967,6 +967,9 @@ footer p, footer h2, footer li  {
 @media only screen and (max-width: 850px) and (min-width: 586px) {
     #wrapper header {
         padding: 0;
+    }
+    #wrapper header nav {
+        min-width: 100%;
     }
     #section_2 > span {
         left: 40%;
