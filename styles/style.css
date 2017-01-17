@@ -929,7 +929,7 @@ footer p, footer h2, footer li  {
         width: 100%;
         display: none;
     }
-    .drop_steam {
+    body .drop_steam {
         display: block;
         min-height: 270px;
     }
@@ -985,7 +985,7 @@ footer p, footer h2, footer li  {
     }
     #section_3 div article {
         width: 100%;
-        height: 400px;
+        height: 460px;
         padding: 2%;
     }
     #section_3 > div {
@@ -1010,6 +1010,10 @@ footer p, footer h2, footer li  {
     #sweetFullRec {
         padding: 40px 2%; 
     }
+    #section_3 .angle {
+        display: none;
+    }
+
         /* SECTION 4 */
 
     #section_4 {
@@ -1038,7 +1042,7 @@ footer p, footer h2, footer li  {
         height: auto;
         padding: 40px 2%;
         flex-direction: column;
-        min-height: 494px;
+        min-height: 550px;
     }
     .breakfast article {
         width: 100%;
@@ -1066,6 +1070,9 @@ footer p, footer h2, footer li  {
     #section_5 aside > span {
         right: 0;
         margin-bottom: 10px;
+    }
+    #section_5 aside {
+        height: auto;
     }
     #section_5 aside > span:first-of-type {   
         top: -30px;
