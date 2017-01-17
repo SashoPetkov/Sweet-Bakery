@@ -945,9 +945,6 @@ footer p, footer h2, footer li  {
     .left, .right {
         width: 48%;
     }
-    #wrapper #section_2 > span {
-        top: 669.5px;
-    }
     #section_3, #section_4, #section_5 {
         padding: 5%;
     }
@@ -974,6 +971,12 @@ footer p, footer h2, footer li  {
     }
     #wrapper header nav {
         min-width: 100%;
+    }
+    #section_1 {
+        height: 700px; 
+    }
+    #wrapper #section_2 > span {
+        top: 669.5px;
     }
     #section_2 > span {
         left: 40%;
