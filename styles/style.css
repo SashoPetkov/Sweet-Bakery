@@ -930,7 +930,7 @@ footer p, footer h2, footer li  {
 }
 @media only screen and (max-width: 1065px) and (min-width: 768px) {
     header nav {
-        min-width: 550px;
+        min-width: 100%;
     }
     #wrapper > header {
         height: auto;
