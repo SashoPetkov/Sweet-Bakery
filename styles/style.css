@@ -986,6 +986,7 @@ footer p, footer h2, footer li  {
         left: 40%;
     }
 
+
         /* SECTION 3 */
     #section_3 {
         padding: 30px 2% 30px 2%;
@@ -1017,7 +1018,7 @@ footer p, footer h2, footer li  {
     #sweetFullRec {
         padding: 40px 2%; 
     }
-    #section_3 .angle {
+    #section_3 .angle { 
         display: none;
     }
 
