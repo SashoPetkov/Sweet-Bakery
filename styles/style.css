@@ -936,13 +936,17 @@ footer p, footer h2, footer li  {
         height: auto;
     }
     #section_1 {
-        padding: 0 15% 
+        padding: 0 15%;
+        height: 700px; 
     }
     #myMenu {
         padding: 40px 2%; 
     }
     .left, .right {
         width: 48%;
+    }
+    #wrapper #section_2 > span {
+        top: 669.5px;
     }
     #section_3, #section_4, #section_5 {
         padding: 5%;
