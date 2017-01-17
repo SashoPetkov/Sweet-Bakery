@@ -965,6 +965,9 @@ footer p, footer h2, footer li  {
     }
 }
 @media only screen and (max-width: 850px) and (min-width: 586px) {
+    header {
+        padding: 0;
+    }
     #section_2 > span {
         left: 40%;
     }
@@ -985,6 +988,19 @@ footer p, footer h2, footer li  {
     }
     #section_4 > aside img {
         top: 56%;
+    }
+    .breakfast {
+        height: auto;
+        padding: 40px 2%;
+        flex-direction: column;
+        min-height: 550px;
+        justify-content: space-around;
+    }
+    .breakfast article {
+        width: 100%;
+    }
+    .breakfast article:last-of-type {
+        margin-top: 20px;
     }
     #section_5 aside > span:first-of-type {   
         top: -30px;
