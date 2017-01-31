@@ -1066,7 +1066,7 @@ footer p, footer h2, footer li  {
 @media only screen and (max-width: 585px) {
         /* HEADER */
     #wrapper > header {
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
     }
     .name {
